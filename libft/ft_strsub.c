@@ -1,22 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putnbr.c                                        :+:      :+:    :+:   */
+/*   ft_strsub.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: cgirard <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2015/11/27 12:02:14 by cgirard           #+#    #+#             */
-/*   Updated: 2015/11/27 12:02:30 by cgirard          ###   ########.fr       */
+/*   Created: 2015/11/27 17:25:43 by cgirard           #+#    #+#             */
+/*   Updated: 2015/11/27 17:50:23 by cgirard          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_putnbr(int nb)
+char	*ft_strsub(char const *s, unsigned int start, size_t len)
 {
-	if (nb < 0)
-		nb = -nb;
-	if (nb >= 10)
-		ft_putnbr(nb / 10);
-	ft_putchar('0' + (nb % 10));
+
 }
